@@ -1,0 +1,7 @@
+<?php
+
+$conn = new mysqli('localhost', 'root', '', 'crud-ajax');
+
+if ($conn->connect_error) {
+    die('Connection failed:' . $conn->connect_error);
+}
